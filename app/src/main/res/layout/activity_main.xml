@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             android:layout_marginLeft="0dp"
+                                             android:background="@android:color/black"
+                                             tools:context="studio.kucuela.huh.MainActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/plavou"
+                android:orientation="vertical"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button10"
+                        android:layout_width="223dp"
+                        android:layout_height="165dp"
+
+                        android:layout_marginRight="5dp"
+
+                        android:background="@android:color/transparent"
+                        android:onClick="kvaliteta"
+                        android:paddingTop="15dp"
+                        android:text="ŠTO MI SE BRANKO NE JAVLJA?"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/transparent"
+                        android:visibility="visible"/>
+
+                    <Button
+                        android:id="@+id/button"
+                        android:layout_width="match_parent"
+                        android:layout_height="165dp"
+
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+
+                        android:background="@android:color/transparent"
+                        android:elevation="1dp"
+                        android:onClick="disciplinovan"
+                        android:text="ja sam ti disciplinovan !"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/transparent"
+                        android:textSize="12sp"
+                        android:visibility="visible"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button12"
+                        android:layout_width="217dp"
+                        android:layout_height="match_parent"
+
+                        android:layout_marginRight="5dp"
+
+                        android:background="@android:color/transparent"
+                        android:onClick="razguli"
+                        android:paddingTop="15dp"
+                        android:text="OVO JE BRE NJEMAČKA KVALITETA !"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/transparent"
+                        android:visibility="visible"/>
+
+                    <Button
+                        android:id="@+id/button7"
+                        android:layout_width="match_parent"
+                        android:layout_height="162dp"
+
+                        android:layout_marginRight="5dp"
+
+                        android:layout_weight="0.71"
+                        android:background="@android:color/transparent"
+                        android:onClick="kapija"
+                        android:text="KAPIJA !"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/transparent"
+                        android:visibility="visible"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="190dp"
+
+                        android:layout_marginRight="5dp"
+
+                        android:layout_weight="0.86"
+                        android:background="@android:color/transparent"
+                        android:onClick="sc"
+                        android:paddingTop="15dp"
+                        android:text="MIRO,  IMAL PIVE?"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/transparent"
+                        android:visibility="visible"/>
+
+                    <Button
+                        android:id="@+id/button6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="220dp"
+
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:onClick="hey"
+                        android:paddingTop="15dp"
+                        android:text="FRIŽIDER LATIČAR"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/transparent"
+                        android:visibility="visible"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/plavo3"
+                android:orientation="vertical"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button8"
+                        android:layout_width="180dp"
+                        android:layout_height="168dp"
+
+                        android:layout_marginRight="5dp"
+
+                        android:background="@android:color/transparent"
+                        android:onClick="zatvor"
+                        android:paddingLeft="100dp"
+                        android:paddingRight="15dp"
+                        android:text="ja sam ti se zatvora naležao, pičke najebao i života naživeo!"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/transparent"
+                        android:visibility="visible"/>
+
+                    <Button
+                        android:id="@+id/button9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="124dp"
+
+                        android:layout_marginRight="5dp"
+
+
+                        android:layout_marginTop="25dp"
+                        android:background="@android:color/transparent"
+                        android:onClick="zapamtices"
+                        android:paddingLeft="105dp"
+                        android:paddingRight="18dp"
+                        android:text="ZAPAMTIćEš SINOćNU VEčE  PORIJEKLO TI JEBEM  UPAMTIćEš SRBINA  IZ REPUBLIKE SRPSKE  MIRA NIJE SAMA I REPA BEZ KORENA KOME ćEš TI PIčKU LIZAT  LIZAT ćEš TI MOJ KURAC !"
+                        android:textAlignment="viewStart"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/transparent"
+                        android:textSize="11sp"
+                        android:visibility="visible"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="184dp"
+                        android:layout_height="173dp"
+
+                        android:layout_marginRight="5dp"
+
+                        android:background="@android:color/transparent"
+                        android:onClick="alo"
+                        android:paddingTop="15dp"
+                        android:text="NEUNOSIMO POZZ?"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/transparent"
+                        android:visibility="visible"/>
+
+                    <Button
+                        android:id="@+id/button13"
+                        android:layout_width="match_parent"
+                        android:layout_height="85dp"
+
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="-20dp"
+                        android:layout_weight="0.23"
+                        android:background="@android:color/transparent"
+                        android:onClick="zakljucaj"
+                        android:paddingTop="15dp"
+                        android:text="VISIO BI TI MENI NA BANDERI"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/transparent"
+                        android:visibility="visible"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_weight="0.63"
+                    android:orientation="horizontal"
+                    tools:layout_editor_absoluteX="8dp"
+                    tools:layout_editor_absoluteY="8dp">
+
+                    <Button
+                        android:id="@+id/button17"
+                        android:layout_width="189dp"
+                        android:layout_height="175dp"
+
+                        android:layout_marginRight="5dp"
+
+                        android:background="@android:color/transparent"
+                        android:onClick="branko"
+                        android:paddingTop="15dp"
+                        android:text="MORAM JEBATI OVU KOMŠINICU"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/transparent"
+                        android:visibility="visible"/>
+
+                    <Button
+                        android:id="@+id/button11"
+                        android:layout_width="64dp"
+                        android:layout_height="match_parent"
+
+                        android:layout_marginLeft="38dp"
+                        android:layout_weight="0.75"
+                        android:background="@android:color/transparent"
+                        android:onClick="jasam"
+                        android:paddingTop="15dp"
+                        android:text="JEL TO OPET BILA NEKA POPLAVA?"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/transparent"
+                        android:visibility="visible"
+                        tools:layout_editor_absoluteX="8dp"
+                        tools:layout_editor_absoluteY="0dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
